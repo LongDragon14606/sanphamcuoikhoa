@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Register</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <!-- Xây dựng giao diện trang đăng kí -->
+    <div class="register-container">
+        <div class="aside-right">
+            <div class="header">
+                <h3>MindX Tester</h3>
+            </div>
+            <form id="register-form">
+            <div class="name-wrapper">
+                <div class="input-wrapper">
+                    <input type="text" name="firstName" placeholder="First name ...">
+                    <div class="error" id="first-name-error"></div>
+                </div> 
+                <div class="input-wrapper">
+                    <input type="text" name="lastName" placeholder="Last name ...">
+                    <div class="" id="last-name-error"></div>
+                </div> 
+            </div>
+            <div class="input-wrapper">
+                <input type="email" name="email" placeholder="Email ...">
+            </div> 
+            <div class="input-wrapper">
+                <input type="password" name="password" placeholder="Password ...">
+            </div> 
+            <div class="input-wrapper">
+                <input type="password" name="confirmPassword" placeholder="Confirm password ...">
+                <div class="form">
+                    <span class="cursor" id="redirect-to-web">Already have an account? Login</span>
+                    <button class="btn" type="submit">Register</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="register.js"></script>
+    <script src="controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.register-container {
+    height: 100vh;
+    background-image: url(https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/cuc-dep-hinh-nen-thien-nhien.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.register-container .aside-right {
+    width: 35%;
+    height: 100vh;
+    background: #fff;
+}
+
+.register-container .aside-right .header h3 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.register-container .name-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-container .name-wrapper .input-wrapper {
+    width: 48%;
+}
+
+#register-form {
+    padding: 20px;
+}
+
+.register-container .aside-right .form-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
