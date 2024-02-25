@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* SignUp-LogIn-LogOut */
+.LogIn {
+    margin-top: 150px; 
+}
+.SignUp {
+    margin-top: 150px; 
+    width: 1000px;
+    /* text-align: center; */
+}
+.form-label {
+    margin-left: 100px;
+}
+.mb-3 input {
+    width: 200px;
+    margin-left: 375px;
+}
+.mb-3 label {
+    margin-left: 375px;
+}
+.p-3 button {
+    margin-left: 375px;
+}
+.col-12  {
+    width: 700px;
+    margin-left: 325px;
+}
+.col-12 label {
+    margin-left: auto;
+}
+
+.col-12 button {
+    margin-left: auto;
+}
+.col h4 {
+    margin-left: 390px;
+}
+.text-signup {
+    margin-left: 550px;
+    text-align: center;
+    color: #DC143C;
+}
+.text-login {
+    text-align: center;
+    color: #DC143C;
+}
+.col-md-6 input {
+    width: 490px;
+    margin-left: 325px;
+}
+.col-md-6 label {
+    margin-left: 325px;
+}
+.send-to-login {
+    margin-top: 10px;
+    margin-left: 325px;
+}
+/* Contact Us */
+.contact {
+    width: 1280px;
+    margin: 0 auto;
+}
+.contact-text h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+.form_name {
+    display: flex;
+    width: 100%;
+    margin:  0 auto;
+}
+.item_form {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.item_form select {
+    width: 627px;
+    height: 60px;
+    border: 1px solid #00000058;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.item_form input {
+    width: 620px;
+    height: 60px;
+    border: 1px solid #00000058;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.in_form {
+    width: 1280px;
+    height: 200px;
+    border: 1px solid #00000058;
+    border-radius: 5px;
+}
+.btn {
+    text-align: center;
+    margin: 20px 0;
+}
+.mass {
+    margin-top: 10px;
+}
+.mass input {
+    font-size: 17px;
+}
+.btn button {
+    background-color: #000;
+    border: 1px solid #00000058;
+    border-radius: 5px;
+    color: #fff;
+    width: 180px;
+    height: 64px;
+    font-size: 20px;
+}
